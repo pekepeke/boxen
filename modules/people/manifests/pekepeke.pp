@@ -10,6 +10,7 @@ class people::pekepeke {
 
   include alfred
   include keyremap4macbook::login_item
+  include bettertouchtool
   include caffeine
   include clipmenu
   include slate
@@ -58,6 +59,24 @@ class people::pekepeke {
       provider => pkgdmg;
     'CotEditor':
       source => 'http://sourceforge.jp/projects/coteditor/downloads/54872/CotEditor_1.3.1.dmg',
+      provider => dmg;
+    'Day-O':
+      source => 'shauninman.com/assets/downloads/Day-O.zip',
+      provider => compressed_app;
+    'MacVim':
+      source => 'http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20121213.dmg',
+      provider => dmg;
+    'HardCoreZipper':
+      source => 'http://www.geocities.jp/freeggggroup/nf/HardCoreZipper_213.zip',
+      provider => compressed_app;
+    'Zipeg':
+      source => 'http://www.zipeg.net/downloads/zipeg_mac.dmg',
+      provider => dmg;
+    'GoogleJapaneseInput':
+      source => 'https://dl.google.com/japanese-ime/latest/GoogleJapaneseInput.dmg',
+      provider => pkgdmg;
+    'DiffMerge':
+      source => 'http://download-us.sourcegear.com/DiffMerge/3.3.2/DiffMerge.3.3.2.1139.dmg',
       provider => dmg;
   }
 }

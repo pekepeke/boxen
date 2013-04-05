@@ -48,6 +48,7 @@ github "sublime_text_2", "1.1.0"
 
 github "alfred", "1.0.1"
 github "keyremap4macbook", "1.0.2", :repo => "smh/puppet-keyremap4macbook"
+github "bettertouchtool", "1.0.0", :repo => "lucadegasperi/puppet-bettertouchtool"
 github "caffeine", "1.0.0"
 github "clipmenu", "1.0.0", :repo => "jhubert/puppet-clipmenu"
 github "slate", "1.0.0"
