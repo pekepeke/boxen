@@ -1,31 +1,42 @@
 class people::pekepeke {
   include dropbox
+  include xquartz
+
   include skype
+  include adium
 
   include firefox
   include chrome
+  include thunderbird
 
   include intellij
   include sublime_text_2
 
   include alfred
+  include xtrafinder
+  include secondbar
   include keyremap4macbook::login_item
-  include bettertouchtool
+  include better_touch_tools
   include caffeine
   include clipmenu
   include slate
-  include adium
-  include cyberduck
-  include keepassx
+  include googledrive
+
   include vlc
   include handbrake
+  include imageoptim
+
   include magican
   include appcleaner
+  include onyx
 
   include iterm2::stable
   include sequel_pro
   include virtualbox
   include vagrant
+
+  include cyberduck
+  include keepassx
 
   # install by homebrew
   package {
@@ -54,9 +65,6 @@ class people::pekepeke {
     # 'Kobito':
     #   source   => "http://kobito.qiita.com/download/Kobito_v1.2.0.zip",
     #   provider => compressed_app;
-    'XtraFinder':
-      source   => "http://www.trankynam.com/xtrafinder/downloads/XtraFinder.dmg",
-      provider => pkgdmg;
     'CotEditor':
       source => 'http://sourceforge.jp/projects/coteditor/downloads/54872/CotEditor_1.3.1.dmg',
       provider => dmg;
